@@ -5,6 +5,10 @@
         margin: auto;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     /* General Stuff */
     /* Dividers */
     .brownDivider, .greenDivider {
@@ -75,7 +79,7 @@
         justify-self: center;
     }
 
-    /* Index page */
+    /* Index.html */
     #greenSociety {
         margin-top: 16px;
         margin-inline: 1.2em;
@@ -88,7 +92,7 @@
     #brownDividerMiddle {
         background-color: #6C584C;
         margin-top: 16px;
-        padding: 1em;
+        padding: 1.2em;
         margin-inline: 1.2em;
         border-radius: 9px;
     }
@@ -110,12 +114,75 @@
         flex-direction: column;
     }
 
+    /* Missie.html */
+
+    .missieParagraphs {
+        margin-inline: 1.4em;        
+    }
+
+    #missiePic {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    #missiePic > img:first-of-type {
+        position: absolute;
+        margin-top: 16px;
+    }
+    
+    #missieTestimony {
+        display: flex;
+        margin-top: 1em;
+        margin-inline: 2em;
+        gap: 16px;
+    }
+
+    #missieTestimony > img:first-of-type {
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    
     /* Aanbod.html */
 
-    /* edit text widths */
-    #testimony {
-        display: flex;
+    .aanbodParagraphs {
+        margin-inline: 1.4em;        
     }
+
+    #aanbodPic {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    #aanbodPic > img:first-of-type {
+        position: absolute;
+        margin-top: 16px;
+    }
+
+    #aanbodIntro {
+        margin-inline: 1.4em;        
+    }
+
+    #aanbodBieden {
+        margin-inline: 1.4em;
+    }
+
+    #aanbodTestimony {
+        display: flex;
+        margin-top: 1em;
+        margin-inline: 2em;
+        gap: 32px;
+        text-align: right;
+    }
+
+    #aanbodTestimony > img:first-of-type {
+        position: absolute;
+        margin-left: 188px;
+        margin-top: 16px;
+    }
+    
 
     /* Tuin.html */
     #tuinIntro {
