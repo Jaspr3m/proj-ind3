@@ -1,0 +1,57 @@
+@media only screen and (max-width: 667px) {
+    
+    body {
+        background-color: #F0EAD2;
+    }
+
+    /* Navigation Styling (synonymous with all websites) */
+    nav {
+        background-color: #F0EAD2;
+        position: relative;
+        padding: 0.5em;
+    }
+
+    #vine {
+        margin-top: 10px;
+    }
+      
+    nav #myLinks {
+        display: none;
+    }
+    
+    nav a {
+        color: black;
+        padding: 1.3em 1.4em;
+        text-decoration: none;
+        font-size: 1em;
+        display: block;
+    }
+    
+    nav a.icon {
+        background: #BDC5A4;
+        border: solid 2px #6C584C;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    /* Page Headers */
+
+    #welkomHeader, #missieHeader, #aanbodHeader, #tuinHeader {
+        margin-top: 10px;
+        display: flex;
+        justify-self: center;
+    }
+
+}
