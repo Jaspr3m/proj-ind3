@@ -1,7 +1,8 @@
 @media only screen and (max-width: 667px) {
-    
+
     body {
         background-color: #F0EAD2;
+        margin: auto;
     }
 
     /* General Stuff */
@@ -21,6 +22,7 @@
     }
 
     /* Navigation Styling (synonymous with all websites) */
+    /* Fix nav margins */
 
     nav {
         background-color: #F0EAD2;
@@ -108,6 +110,13 @@
         flex-direction: column;
     }
 
+    /* Aanbod.html */
+
+    /* edit text widths */
+    #testimony {
+        display: flex;
+    }
+
     /* Tuin.html */
     #tuinIntro {
         margin-inline: 1.2em;
@@ -116,12 +125,18 @@
 
     #tuinHuisregels {
         /* temporary */
-        cursor: auto;
+        margin-inline: 1.2em;
     }
 
     /* fix footer */
     #footerImg {
-        background-size: contain;
+        margin-top: 1em;
+        display: flex;
+        width: 100%;
+        justify-self: center;
+        background-size: cover;
         background-clip: content-box;
     }
+
+
 }
