@@ -12,7 +12,7 @@
     }
 
     #vine {
-        margin-top: 10px;
+        margin-top: 16px;
     }
       
     nav #myLinks {
@@ -49,9 +49,53 @@
     /* Page Headers */
 
     #welkomHeader, #missieHeader, #aanbodHeader, #tuinHeader {
-        margin-top: 10px;
+        margin-top: 16px;
         display: flex;
         justify-self: center;
+    }
+
+    /* Index page */
+
+    #greenSociety {
+        margin-top: 16px;
+        margin-inline: 1.2em;
+        padding: 6em;
+        border-radius: 9px;
+        background-color: #6C584C;
+        border: solid 5px #8C9E53;
+    }
+
+    #brownDivider {
+        background-color: #6C584C;
+        margin-top: 16px;
+        padding: 1em;
+        margin-inline: 1.2em;
+        border-radius: 9px;
+    }
+
+    #introText {
+        text-align: center;
+        margin-inline: 1.2em;
+        font-size: 1.2em;
+    }
+
+    /* Index page cards */
+
+    #pageCards {
+        margin-top: 16px;
+        display: flex;
+        gap: 10px;
+        margin-inline: 1.2em;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    /* fix footer */
+    #footerImg {
+        background-size: contain;
+        background-clip: content-box;
     }
 
 }
