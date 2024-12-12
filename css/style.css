@@ -4,7 +4,24 @@
         background-color: #F0EAD2;
     }
 
+    /* General Stuff */
+    /* Dividers */
+    .brownDivider, .greenDivider {
+        margin-top: 1em;
+    }
+
+    /* Img Borders */
+    
+    #imgBorder {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+    }
+
     /* Navigation Styling (synonymous with all websites) */
+
     nav {
         background-color: #F0EAD2;
         position: relative;
@@ -46,7 +63,9 @@
         color: white;
     }
 
-    /* Page Headers */
+    /* Page Headers need to be done differently ngl */
+    /* We need h1 */
+    /* This is temporary */
 
     #welkomHeader, #missieHeader, #aanbodHeader, #tuinHeader {
         margin-top: 16px;
@@ -55,7 +74,6 @@
     }
 
     /* Index page */
-
     #greenSociety {
         margin-top: 16px;
         margin-inline: 1.2em;
@@ -65,7 +83,7 @@
         border: solid 5px #8C9E53;
     }
 
-    #brownDivider {
+    #brownDividerMiddle {
         background-color: #6C584C;
         margin-top: 16px;
         padding: 1em;
@@ -80,7 +98,6 @@
     }
 
     /* Index page cards */
-
     #pageCards {
         margin-top: 16px;
         display: flex;
@@ -91,11 +108,20 @@
         flex-direction: column;
     }
 
+    /* Tuin.html */
+    #tuinIntro {
+        margin-inline: 1.2em;
+        text-align: center;
+    }
+
+    #tuinHuisregels {
+        /* temporary */
+        cursor: auto;
+    }
 
     /* fix footer */
     #footerImg {
         background-size: contain;
         background-clip: content-box;
     }
-
 }
