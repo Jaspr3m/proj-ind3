@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
-    <title>Welkom!</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Hepta+Slab:wght@500&family=Indie+Flower&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Onze tuin</title>
 </head>
 <body>
     <header>
         <nav>
             <img src="images/gs-logo.png" alt="Logo">
                 <div id="myLinks">
-                    <a href="index.html">HOME</a>
-                    <a href="missie.html">MISSIE</a>
-                    <a href="aanbod.html">AANBOD</a>
-                    <a href="tuin.html">ONZE TUIN</a>
+                    <a class="links" href="index.html">HOME</a>
+                    <a class="links" href="missie.html">MISSIE</a>
+                    <a class="links" href="aanbod.html">AANBOD</a>
+                    <a class="links" href="tuin.html">ONZE TUIN</a>
                 </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -25,10 +29,11 @@
         <img id="vine" src="images/gs-header-vine.png" alt="Header Vine">
     </header>
     <main>
+        <h1>Tuin</h1>
         <img id="tuinHeader" src="images/gs-main-tuin-header.png" alt="Tuin header">
         <section id="tuinIntro">
             <h2>
-                Weet jij je waarde? Doe iets goeds voor de Aarde!
+                Weet jij je waarde?<br>Doe iets goeds<br>voor de Aarde!
             </h2>
             <p>
                 Hieronder krijg je via een versimpelde diagram te zien welke vakken tot 
@@ -39,15 +44,19 @@
             <img src="images/gs-tuin-diagram.png" alt="Tuin Diagram">
         </section>
         <img class="brownDivider" src="images/gs-divider-brown.png" alt="Brown divider">
-        <img id="imgBorder" src="images/gs-img-1.png" alt="ImgBorder">
+
+        <div id="huisregelsPic">
+            <img src="images/gs-tuin-huisregelspic.png" alt="picture">
+            <img id="imgBorder" src="images/gs-img-1.png" alt="ImgBorder">
+        </div>
 
         <section id="tuinHuisregels">
-        <h2>HUISREGELS</h2>
+        <h2 style="font-size: 40px;">HUISREGELS</h2>
             <p>Bij onze moestuin krijg je te maken met huisregels.
                 <ul>
-                    <li>ALLEEN groentes, fruit en kruiden planten.</li>
-                    <li>GEEN rommel maken.</li>
-                    <li>GEEN gebruik maken van alcohol of drugs op de moestuin.</li>
+                    <li><b>ALLEEN</b> groentes, fruit en kruiden planten.</li>
+                    <li><b>GEEN</b> rommel maken.</li>
+                    <li><b>GEEN</b> gebruik maken van alcohol of drugs op de moestuin.</li>
                 </ul>
             </p>
         </section>

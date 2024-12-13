@@ -5,8 +5,41 @@
         margin: auto;
     }
 
+    /* fonts */
+
+    p, ul, i {
+        font-family: "Alumni Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+
+    h1 {
+        display: none;
+        font-family: 'Regint';
+    }
+
+    a {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
     h2 {
+        font-family: "Hepta Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
         text-align: center;
+        font-size: 26px;
+    }
+
+    h3 {
+        font-family: "Indie Flower", serif;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
     }
 
     /* General Stuff */
@@ -31,7 +64,8 @@
     nav {
         background-color: #F0EAD2;
         position: relative;
-        padding: 0.5em;
+        margin-top: 1em;
+        margin-inline: 1em;
     }
 
     #vine {
@@ -40,19 +74,30 @@
       
     nav #myLinks {
         display: none;
+        margin-top: 10px;
     }
     
     nav a {
         color: black;
-        padding: 1.3em 1.4em;
         text-decoration: none;
+        padding-inline: 1em;
+        padding-block: 0.3em;
         font-size: 1em;
         display: block;
+        text-align: center;
+    }
+    
+    .links {
+        color: #BDC5A4;
+        background-color: #6C584C;
+        border: solid 2px #BDC5A4;
+        margin-top: 2px;
     }
     
     nav a.icon {
         background: #BDC5A4;
         border: solid 2px #6C584C;
+        border-radius: 9px;
         display: block;
         position: absolute;
         right: 0;
@@ -60,7 +105,7 @@
     }
     
     nav a:hover {
-        background-color: #ddd;
+        background-color: #BDC5A4;
         color: black;
     }
     
@@ -80,10 +125,13 @@
     }
 
     /* Index.html */
-    #greenSociety {
+
+    #greenSocietyDiv {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
         margin-top: 16px;
         margin-inline: 1.2em;
-        padding: 6em;
         border-radius: 9px;
         background-color: #6C584C;
         border: solid 5px #8C9E53;
@@ -100,7 +148,6 @@
     #introText {
         text-align: center;
         margin-inline: 1.2em;
-        font-size: 1.2em;
     }
 
     /* Index page cards */
@@ -194,6 +241,18 @@
         /* temporary */
         margin-inline: 1.2em;
     }
+
+    #huisregelsPic {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    #huisregelsPic > img:first-of-type {
+        position: absolute;
+        margin-top: 30px;
+    }
+
 
     /* fix footer */
     #footerImg {
